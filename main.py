@@ -27,5 +27,5 @@ async def on_message(message):
                 channel = bot.get_channel(954711698957291531)
                 await channel.send(attachment.url)
         await bot.process_commands(message)
-token = ./
-bot.run(token)
+
+bot.run(MTAzNDg3Njk0MzIwOTg2OTM5NA.G4Zy5h.froLlHkksquetJXILRcwuJyHkgBjbW77aJFmJ8)
