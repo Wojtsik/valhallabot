@@ -25,7 +25,9 @@ async def on_message(message):
       if message.attachments:
         for attachment in message.attachments:
                 channel = bot.get_channel(954711698957291531)
+                member = message.author
+                await channel.send(member)
                 await channel.send(attachment.url)
         await bot.process_commands(message)
-
-bot.run(MTAzNDg3Njk0MzIwOTg2OTM5NA.G4Zy5h.froLlHkksquetJXILRcwuJyHkgBjbW77aJFmJ8)
+token = os.environ['token']
+bot.run(token)
